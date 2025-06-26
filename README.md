@@ -1,7 +1,5 @@
 # IIB-Project-Machine-Learning-Models-to-Predict-Glucose-Levels-from-Chronic-Vagus-Nerve-Recordings
 
-# Autonomic–Glucose Modelling Project
-
 This repository contains code for Structural Equation Modelling (SEM) and Hidden Markov Models (HMM) applied to chronic vagus‐nerve recordings and blood glucose data in anesthetized rats.
 
 ## Directory Structure
