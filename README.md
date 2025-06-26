@@ -2,10 +2,13 @@
 
 This repository contains code for Structural Equation Modelling (SEM) and Hidden Markov Models (HMM) applied to chronic vagus‐nerve recordings and blood glucose data in anesthetized rats.
 
+> **Note:** The `.pkl` data files are not included in this repository (too large).  
+> Place each under its respective folder and ensure the filenames match.
+
 ## Directory Structure
 
 ```text
-project_root/
+code/
 ├── dataframe_9/
 │ ├── plots/
 │ │ └── … signal & feature plots (.png)
