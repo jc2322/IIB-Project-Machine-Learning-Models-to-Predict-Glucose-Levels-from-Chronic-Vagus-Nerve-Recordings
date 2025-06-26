@@ -6,57 +6,7 @@ This repository contains code for Structural Equation Modelling (SEM) and Hidden
 
 ## Directory Structure
 
-project_root/
-├── dataframe_9/
-│ ├── plots/ ← signal & feature plots (.png)
-│ ├── integrated_dataframe_9.pkl
-│ ├── raw_plots.py
-│ └── SEM.py
-│
-├── dataframe_10/ ← identical structure to dataframe_9, but using integrated_dataframe_10.pkl
-│ ├── plots/
-│ ├── integrated_dataframe_10.pkl
-│ ├── raw_plots.py
-│ └── SEM.py
-│
-├── dataframe_14/ ← same structure
-│ ├── plots/
-│ ├── integrated_dataframe_14.pkl
-│ ├── raw_plots.py
-│ └── SEM.py
-│
-├── dataframe_16/ ← same structure
-│ ├── plots/
-│ ├── integrated_dataframe_16.pkl
-│ ├── raw_plots.py
-│ └── SEM.py
-│
-├── dataframe_11/
-│ ├── plots/ ← same signal‐plot folder as above
-│ ├── integrated_dataframe_11.pkl
-│ ├── raw_plots.py
-│ ├── SEM.py
-│ └── HMM/ ← HMM experiment code for dataset 11
-│ └── hmm_experiments.py
-│
-├── dataframe_19/
-│ ├── plots/
-│ ├── integrated_dataframe_19.pkl
-│ ├── raw_plots.py
-│ ├── SEM.py
-│ └── HMM/ ← HMM experiment code for dataset 19
-│ └── hmm_experiments.py
-│
-├── dataframe_9+10/
-│ ├── plots/
-│ ├── integrated_dataframe_9+10.pkl
-│ ├── raw_plots.py
-│ └── HMM/ ← combined HMM code across 9 & 10
-│ └── hmm_experiments.py
-│
-└── dataframe_combined_GL_decreasing_case/
-├── SEM_combined.py ← SEM code on pooled GL‐decreasing data
-└── integrated_dataframe_combined.pkl
+<pre lang="markdown"> \`\`\` project_root/ ├── dataframe_9/ │ ├── plots/ │ │ └── … signal & feature plots (.png) │ ├── integrated_dataframe_9.pkl │ ├── raw_plots.py │ └── SEM.py │ ├── dataframe_10/ ← identical structure to dataframe_9, but using integrated_dataframe_10.pkl │ ├── plots/ │ ├── integrated_dataframe_10.pkl │ ├── raw_plots.py │ └── SEM.py │ ├── dataframe_14/ ← same structure │ ├── plots/ │ ├── integrated_dataframe_14.pkl │ ├── raw_plots.py │ └── SEM.py │ ├── dataframe_16/ ← same structure │ ├── plots/ │ ├── integrated_dataframe_16.pkl │ ├── raw_plots.py │ └── SEM.py │ ├── dataframe_11/ │ ├── plots/ ← same signal‐plot folder as above │ ├── integrated_dataframe_11.pkl │ ├── raw_plots.py │ ├── SEM.py │ └── HMM/ ← HMM experiment code for dataset 11 │ ├── dataframe_19/ │ ├── plots/ │ ├── integrated_dataframe_19.pkl │ ├── raw_plots.py │ ├── SEM.py │ └── HMM/ ← HMM experiment code for dataset 19 │ ├── dataframe_9+10/ │ └── HMM/ ← combined HMM code across 9 & 10 │ └── dataframe_combined_GL_decreasing_case/ └── SEM_combined.py ← SEM code on pooled GL‐decreasing data \`\`\` </pre
 
 ---
 
